@@ -2,24 +2,129 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raio-X da Juventude</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>🎯 Raio-X da Juventude</h1>
-    <p>Diagnóstico de condições de vida e métricas para atuação social e educacional.</p>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased min-h-screen">
 
-    <h2>📊 Principais Métricas</h2>
-    <ul>
-        <li><b>Inclusão Digital:</b> 42% dos jovens não possuem internet rápida em casa.</li>
-        <li><b>Risco de Evasão:</b> 38,4% em situação de alta vulnerabilidade escolar.</li>
-        <li><b>Infraestrutura Escolar:</b> Nota média de 2,2 de 5,0 nas escolas públicas.</li>
-    </ul>
+    <!-- Hero Section -->
+    <header class="border-b border-slate-800 bg-slate-950/50 py-12 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <span class="text-indigo-400 font-semibold tracking-wide uppercase text-sm">Projeto Socioeducacional</span>
+            <h1 class="text-4xl md:text-5xl font-extrabold mt-2 mb-4 text-white">🎯 Raio-X da Juventude</h1>
+            <p class="text-slate-400 text-lg max-w-2xl mx-auto">
+                Diagnóstico de condições de vida, métricas socioeconômicas e soluções estratégicas para a transformação da vida juvenil.
+            </p>
+        </div>
+    </header>
 
-    <h2>💡 Pilares Estratégicos</h2>
-    <ol>
-        <li><b>Inclusão Digital:</b> Polos comunitários de estudos com Wi-Fi gratuito.</li>
-        <li><b>Apoio Socioemocional:</b> Mentoria e acompanhamento psicológico nas escolas.</li>
-        <li><b>Ensino do Futuro:</b> Capacitação técnica em tecnologia e análise de dados.</li>
-    </ol>
+    <main class="max-w-5xl mx-auto px-6 py-12 space-y-16">
+
+        <!-- O Diagnostico (Problemas) -->
+        <section>
+            <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+                <span>🔴</span> O Diagnóstico: Problemas da Juventude Atual
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                
+                <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-6">
+                    <div class="text-2xl mb-3">🌐</div>
+                    <h3 class="text-lg font-bold text-white mb-2">Exclusão Digital</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Falta de acesso à internet de alta velocidade e dispositivos em casa, impedindo o aprendizado e o letramento digital.
+                    </p>
+                </div>
+
+                <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-6">
+                    <div class="text-2xl mb-3">🧠</div>
+                    <h3 class="text-lg font-bold text-white mb-2">Saúde Mental & Evasão</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Pressão financeira e ausência de apoio psicossocial elevam o estresse, levando ao desinteresse e abandono escolar.
+                    </p>
+                </div>
+
+                <div class="bg-slate-800/60 border border-slate-700/60 rounded-xl p-6">
+                    <div class="text-2xl mb-3">🏫</div>
+                    <h3 class="text-lg font-bold text-white mb-2">Desconexão com o Futuro</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Infraestrutura escolar defasada e currículos desalinhados com o mercado de trabalho e economia digital.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Dados e Metricas -->
+        <section class="bg-slate-800/30 border border-slate-800 rounded-2xl p-6 md:p-8">
+            <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+                <span>📊</span> Diagnóstico em Números
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                <div class="bg-slate-900/80 p-6 rounded-xl border border-slate-800">
+                    <p class="text-3xl font-extrabold text-indigo-400">42%</p>
+                    <p class="text-slate-400 text-sm mt-2">Sem internet rápida em casa</p>
+                </div>
+                <div class="bg-slate-900/80 p-6 rounded-xl border border-slate-800">
+                    <p class="text-3xl font-extrabold text-rose-400">38,4%</p>
+                    <p class="text-slate-400 text-sm mt-2">Em alto risco de evasão/estresse</p>
+                </div>
+                <div class="bg-slate-900/80 p-6 rounded-xl border border-slate-800">
+                    <p class="text-3xl font-extrabold text-amber-400">2,2 / 5,0</p>
+                    <p class="text-slate-400 text-sm mt-2">Nota média de infraestrutura escolar</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Soluções / 3 Pilares -->
+        <section>
+            <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+                <span>🟢</span> A Solução: 3 Pilares Estratégicos
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                
+                <div class="bg-indigo-950/40 border border-indigo-800/50 rounded-xl p-6">
+                    <h3 class="text-lg font-bold text-indigo-300 mb-2">1. Inclusão Digital</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        Criação de Polos Comunitários de Estudo com Wi-Fi gratuito e computadores para jovens vulneráveis.
+                    </p>
+                </div>
+
+                <div class="bg-rose-950/40 border border-rose-800/50 rounded-xl p-6">
+                    <h3 class="text-lg font-bold text-rose-300 mb-2">2. Apoio Socioemocional</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        Programas de mentoria estudantil e acompanhamento psicológico nas escolas públicas.
+                    </p>
+                </div>
+
+                <div class="bg-emerald-950/40 border border-emerald-800/50 rounded-xl p-6">
+                    <h3 class="text-lg font-bold text-emerald-300 mb-2">3. Ensino do Futuro</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        Oficinas práticas de capacitação técnica em lógica de programação, dados e habilidades digitais.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Arquivos do Projeto -->
+        <section class="border-t border-slate-800 pt-10 text-center">
+            <h2 class="text-xl font-bold text-white mb-4">📂 Recursos do Projeto</h2>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="./RaioX_Juventude_Analise.ipynb" class="bg-indigo-600 hover:bg-indigo-500 text-white font-medium px-5 py-2.5 rounded-lg transition-colors">
+                    📓 Ver Notebook no Colab
+                </a>
+                <a href="./dados_juventude_processados.csv" class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium px-5 py-2.5 rounded-lg border border-slate-700 transition-colors">
+                    📊 Baixar Dataset (.CSV)
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-slate-800 py-6 text-center text-slate-500 text-sm">
+        <p>Projeto Raio-X da Juventude • Análise de Dados para Ação Social</p>
+    </footer>
+
 </body>
 </html>
